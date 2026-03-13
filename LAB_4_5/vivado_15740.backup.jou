@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Fri Mar 13 09:54:23 2026
+# Process ID         : 15740
+# Current directory  : C:/Users/247398/MPC_PLD/LAB_4_5
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7628 C:\Users\247398\MPC_PLD\LAB_4_5\Stopwatch.xpr
+# Log file           : C:/Users/247398/MPC_PLD/LAB_4_5/vivado.log
+# Journal file       : C:/Users/247398/MPC_PLD/LAB_4_5\vivado.jou
+# Running On         : PC-SC660-28
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i5-14600K
+# CPU Frequency      : 3494 MHz
+# CPU Physical cores : 14
+# CPU Logical cores  : 20
+# Host memory        : 34088 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39188 MB
+# Available Virtual  : 28610 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/247398/MPC_PLD/LAB_4_5/Stopwatch.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+close_project
+open_project C:/Users/247398/MPC_PLD/LAB_4_5/Stopwatch.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ce_gen [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source ce_gen_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {100n} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {100ns} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {500ns} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+relaunch_sim
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bcd_counter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bcd_counter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ce_gen [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ce_gen_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+close_project
+open_project C:/Users/247398/MPC_PLD/LAB_4_5/Stopwatch.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bcd_counter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bcd_counter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {60s} -objects [get_filesets sim_1]
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ce_gen [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ce_gen_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_simulation -simset sim_1 -mode behavioral
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source ce_gen_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {1s} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+launch_simulation
+source ce_gen_tb.tcl
+close_sim
+launch_simulation
+source ce_gen_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {500ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source ce_gen_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bcd_counter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bcd_counter_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+launch_simulation
+source bcd_counter_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {5000ns} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+launch_simulation
+source bcd_counter_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {60s} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {1s} -objects [get_filesets sim_1]
+launch_simulation
+source bcd_counter_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {50000ns} -objects [get_filesets sim_1]
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {500000ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+launch_simulation
+source bcd_counter_tb.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+launch_simulation
+source bcd_counter_tb.tcl
+update_compile_order -fileset sources_1
+close_sim

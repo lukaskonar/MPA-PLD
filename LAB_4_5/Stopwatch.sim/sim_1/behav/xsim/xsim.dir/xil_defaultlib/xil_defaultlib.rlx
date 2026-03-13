@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/SIM/bcd_counter_tb.vhd,1773399220,vhdl,,,,bcd_counter_tb,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/SIM/btn_in_tb.vhd,1773398375,vhdl,,,,btn_in_tb,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/SIM/ce_gen_tb.vhd,1773398375,vhdl,,,,ce_gen_tb,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/bcd_counter.vhd,1773399179,vhdl,,,,bcd_counter,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/btn_in.vhd,1773389327,vhdl,,,,btn_in,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/ce_gen.vhd,1773396235,vhdl,,,,ce_gen,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/debouncer.vhd,1773389327,vhdl,,,,debouncer,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/edge_detector.vhd,1773389327,vhdl,,,,edge_detector,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/rp_top.vhd,1773389327,vhdl,,,,rp_top,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/stopwatch_fsm.vhd,1773389327,vhdl,,,,stopwatch_fsm,,,,,,,,
+C:/Users/247398/MPC_PLD/LAB_4_5/SOURCES/sync_reg.vhd,1773389327,vhdl,,,,sync_reg,,,,,,,,

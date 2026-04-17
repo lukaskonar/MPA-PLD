@@ -1,0 +1,6 @@
+--- FIR FILTER VERIFICATION LOG ---
+Output error at 10790000 ps. Expected data: 150 Actual data: 149
+Output error at 70630000 ps. Expected data: 155 Actual data: 156
+
+Total number of errors detected: 2
+OVERALL TEST RESULT: FAIL

@@ -1,7 +1,0 @@
-Vivado Simulator v2025.2
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Appz/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot cnt_bin_tb_behav xil_defaultlib.cnt_bin_tb -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-ERROR: [XSIM 43-3235] Entity cnt_bin_tb has no architecture(s).
